@@ -1,0 +1,17 @@
+Alexander P
+CSE 2050 Project
+Go Huskeis
+
+
+
+Simple recreation of hit TV show "Are You The One", where group of contestents are secretly matched, and they are tasked with correctly parterning up. 
+After each round of partnering they are able to select one pair to test in the booth, and are told the total correct number of pairs. 
+
+Goal of this project was two fold, create a matchmaking algorithem (Which I wish I did more with), and 3 algorithems to try playing the game.
+
+The algorithems are one that relies on pure randomness to match, one that relies on checking a pair and removing them from the pool of possible matches
+if they are corrrectly matched. And finally one that swaps a pair, and sees how the total number of pairs change to more quikly deduce the correct pairs.
+
+Algorithems for the most part work semi decently, although missing the communication aspect of the game which was planned to be implemented but wasnt. 
+
+Run python main.py, select how many contestents, and how many trials, and it will give you the averaged rounds and running time it took to solve. 
